@@ -1,0 +1,38 @@
+/* Modal.css */
+.custom-modal-dialog {
+    max-width: 80%;
+    margin: 20px auto;
+  }
+
+  .modal-content {
+    border-radius: 8px;
+    padding: 10px;
+  }
+
+  .modal-header .close {
+    padding: 0.25rem;
+  }
+
+  .modal-body {
+    padding: 0.5rem;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .custom-modal-dialog {
+      max-width: 85%;
+      margin: 10px auto;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .modal-header .close {
+      font-size: 1.25rem;
+    }
+
+    .modal-body {
+      padding: 0.5rem;
+    }
+  }
+
+
