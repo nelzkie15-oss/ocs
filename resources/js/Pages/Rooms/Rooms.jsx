@@ -88,7 +88,8 @@ function Rooms({ rooms }) {
         }
     };
 
-    return (
+
+     return (
         <ContentWrapper header={<h1 className="m-0"><i className="nav-icon fas fa-bed" style={{ color: '#525252' }}></i> Rooms</h1>}>
             <button
                 type="button"
