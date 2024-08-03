@@ -70,7 +70,7 @@ export default function Login({ status, canResetPassword }) {
           <a className="text-blue-600 hover:text-blue-700 hover:underline hover:underline-offset-4" href="#">Forgot Password?</a>
         </div>
         <div className="text-center md:text-left">
-          <button className="px-4 py-2 mt-4 w-100 mb-4 text-xs tracking-wider text-white uppercase bg-blue-600 rounded w-100 hover:bg-blue-700" type="submit">Login</button>
+          <button className="px-4 py-2 mt-4 mb-4 text-xs tracking-wider text-white uppercase bg-blue-600 rounded w-100 hover:bg-blue-700" type="submit">Login</button>
         </div>
 
       </div>
