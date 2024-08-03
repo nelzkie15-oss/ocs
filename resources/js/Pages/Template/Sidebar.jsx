@@ -1,17 +1,17 @@
 import { Link, usePage } from '@inertiajs/react'
 import React from 'react'
+import Logo from "@/Components/Image/ssss-removebg-preview.png";
 function Sidebar() {
     const { auth } = usePage().props
   return (
-    <aside className="main-sidebar sidebar-dark-primary elevation-4">
+   <aside className="main-sidebar sidebar-dark-primary elevation-4">
       <Link href="/" className="brand-link">
 
-        <span className="brand-text font-weight-light">OCS-Panel</span>
+        <span className="brand-text font-weight-light"><img src={Logo} /></span>
       </Link>
       <div className="sidebar">
-        <div className="pb-3 mt-3 mb-3 user-panel d-flex">
-          <div className="image">
-          </div>
+        <div className="pb-3 user-panel d-flex">
+
           <div className="info">
             <a href="/" className="d-block" style={{ textTransform: 'capitalize' }}>{auth.user.name}</a>
           </div>
