@@ -14,7 +14,7 @@ function EdittenantModal({onClose, show, rooms, tenant }){
         start_date: tenant.start_date,
         end_date: tenant.end_date,
         status: tenant.status,
-        status: tenant.amount,
+        amount: tenant.amount,
         payment_status: tenant.payment_status
       });
 
@@ -28,7 +28,7 @@ function EdittenantModal({onClose, show, rooms, tenant }){
             start_date: tenant.start_date || '',
             end_date: tenant.end_date || '',
             status: tenant.status || '',
-            status: tenant.amount || '',
+            amount: tenant.amount || '',
             payment_status: tenant.payment_status || '',
           });
         }
