@@ -11,7 +11,7 @@ export default function Dashboard({ rooms, tenants, paidRecords, unpaidRecords})
         <div className="col-lg-3 col-6">
           <div className="small-box bg-info">
             <div className="inner">
-                <h3 style={{fontSize:"4rem"}}> {rooms}</h3>
+                <h3 style={{fontSize:"5rem"}}> {rooms}</h3>
               <p>Total Rooms</p>
             </div>
             <div className="icon">
@@ -23,7 +23,7 @@ export default function Dashboard({ rooms, tenants, paidRecords, unpaidRecords})
         <div className="col-lg-3 col-6">
           <div className="small-box bg-info">
             <div className="inner">
-              <h3> {tenants}</h3>
+              <h3 style={{fontSize:"5rem"}}> {tenants}</h3>
               <p>Total Tenants</p>
             </div>
             <div className="icon">
@@ -35,7 +35,7 @@ export default function Dashboard({ rooms, tenants, paidRecords, unpaidRecords})
         <div className="col-lg-3 col-6">
           <div className="small-box bg-info">
             <div className="inner">
-              <h3>{paidRecords}</h3>
+              <h3 style={{fontSize:"5rem"}}>{paidRecords}</h3>
 
               <p>Total Paid (<i style={{fontSize:'12px'}}>this month</i>)</p>
             </div>
@@ -48,7 +48,7 @@ export default function Dashboard({ rooms, tenants, paidRecords, unpaidRecords})
         <div className="col-lg-3 col-6">
           <div className="small-box bg-info">
             <div className="inner">
-              <h3>{unpaidRecords}</h3>
+              <h3 style={{fontSize:"5rem"}}>{unpaidRecords}</h3>
 
               <p>Total Not Paid (<i style={{fontSize:'12px'}}>this month</i>)</p>
             </div>
