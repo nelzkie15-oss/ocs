@@ -11,7 +11,7 @@ export default function Dashboard({ rooms, tenants, paidRecords, unpaidRecords})
         <div className="col-lg-3 col-6">
           <div className="small-box bg-info">
             <div className="inner">
-                <h3> {rooms}</h3>
+                <h3 style={{fontSize:"4rem"}}> {rooms}</h3>
               <p>Total Rooms</p>
             </div>
             <div className="icon">
