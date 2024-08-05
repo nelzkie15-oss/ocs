@@ -4,7 +4,7 @@ import { Chart as ChartJS, LineElement, CategoryScale, LinearScale, Title, Toolt
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, Title, Tooltip, Legend);
 
-const Chart = () => {
+const Chart = ({data}) => {
     const [chartData, setChartData] = useState({
         labels: [],
         datasets: [

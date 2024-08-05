@@ -47,7 +47,6 @@ Route::controller(TblRoomController::class)->middleware(['auth', 'web'])->group(
 });
 
 Route::controller(TblTenantController::class)->middleware(['auth', 'web'])->group(function () {
-    // Route::get('/search-salesreport', 'SearchReports')->name('searchSalesreport');
     Route::get('/tenants', 'index')->name('tenants');
     Route::post('/add-tenants', 'store')->name('tenants.store');
     Route::delete('/delete/tenants/{id}', 'destroy')->name('tenants.destroy');

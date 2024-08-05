@@ -54,7 +54,6 @@ class DashboardController extends Controller
                         'tbl_tenants.amount',
                         'tbl_tenants.payment_status',
                         DB::raw('count(tbl_tenants.payment_status) as count_data'),
-                        // DB::raw('count(tbl_service_items.sub_service_id) as total_sub3')
                     )
         ->whereMonth('updated_at', $currentMonth)
         ->groupBy('payment_status')
@@ -63,6 +62,5 @@ class DashboardController extends Controller
         return Inertia::render('Chart', [
             'data' => $data
         ]);
-        //return response()->json($data);
     }
 }
