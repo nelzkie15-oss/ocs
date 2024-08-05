@@ -55,8 +55,8 @@ class DashboardController extends Controller
                         'tbl_tenants.payment_status',
                         DB::raw('count(tbl_tenants.payment_status) as count_data'),
                     )
-        ->whereMonth('updated_at', $currentMonth)
-        ->groupBy('payment_status')
+        ->whereMonth('tbl_tenants.updated_at', $currentMonth)
+        ->groupBy('tbl_tenants.payment_status')
         ->get();
 
         return Inertia::render('Chart', [
