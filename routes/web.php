@@ -32,6 +32,7 @@ Route::middleware('auth')->group(function () {
 
 Route::controller(DashboardController::class)->middleware(['auth', 'verified'])->group(function () {
     Route::get('/dashboard', 'Dashboard')->name('dashboard');
+    Route::get('/chart-data', 'data')->name('chart');
 });
 
 
