@@ -1,1 +1,0 @@
-import{j as r}from"./app-1b373b1f.js";import t from"./Sidebar-c2ea7cc5.js";import o from"./Navbar-b3105ab4.js";import m from"./ContentWrapper-3b73d4c4.js";import"./ResponsiveNavLink-9e3367f7.js";function a(){return r.jsxs(r.Fragment,{children:[r.jsx(t,{}),r.jsx(o,{}),r.jsx(m,{})]})}export{a as default};

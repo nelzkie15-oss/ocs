@@ -122,18 +122,19 @@ function Account({ accounts }) {
             ))}
           </tbody>
         </table>
-        <div className="mb-3 pagination">
-                    {accounts.links.map((link, index) => (
-                        <button
-                            key={index}
-                            onClick={() => handlePageChange(link.url)}
-                            disabled={!link.url || link.active}
-                            className={link.active ? "active" : ""}
-                        >
-                            {link.label}
-                        </button>
-                    ))}
-                </div>
+        <nav>
+            <ul className="pagination">
+                {accounts.links.map((link, index) => (
+                <li key={index} className={`page-item ${link.active ? 'active' : ''}`}>
+                    <Link
+                    href={link.url}
+                    className="page-link"
+                    dangerouslySetInnerHTML={{ __html: link.label }}
+                    />
+                </li>
+                ))}
+            </ul>
+        </nav>
           </div>
 
           {isAccountModalOpen && <AddaccountModal onClose={handleCloseAccountModal} />}

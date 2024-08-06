@@ -239,18 +239,19 @@ function Rooms({ rooms }) {
                     ))}
 
                 </div> */}
-                <div className="mb-3 pagination">
-                    {rooms.links.map((link, index) => (
-                        <button
-                            key={index}
-                            onClick={() => handlePageChange(link.url)}
-                            disabled={!link.url || link.active}
-                            className={link.active ? "active" : ""}
-                        >
-                            {link.label}
-                        </button>
-                    ))}
-                </div>
+                 <nav>
+                    <ul className="pagination">
+                        {rooms.links.map((link, index) => (
+                        <li key={index} className={`page-item ${link.active ? 'active' : ''}`}>
+                            <Link
+                            href={link.url}
+                            className="page-link"
+                            dangerouslySetInnerHTML={{ __html: link.label }}
+                            />
+                        </li>
+                        ))}
+                    </ul>
+                </nav>
             </div>
             {isRoomModalOpen && <AddroomModal onClose={handleCloseRoomModal} />}
 
