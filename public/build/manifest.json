@@ -3,63 +3,63 @@
     "file": "assets/ReactToastify-d9e3f7bd.css",
     "src": "ReactToastify.css"
   },
-  "_ApplicationLogo-4135d031.js": {
-    "file": "assets/ApplicationLogo-4135d031.js",
+  "_ApplicationLogo-ddd2de12.js": {
+    "file": "assets/ApplicationLogo-ddd2de12.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_GuestLayout-50e13093.js": {
-    "file": "assets/GuestLayout-50e13093.js",
+  "_GuestLayout-fc7224df.js": {
+    "file": "assets/GuestLayout-fc7224df.js",
     "imports": [
       "resources/js/app.jsx",
-      "_ApplicationLogo-4135d031.js"
+      "_ApplicationLogo-ddd2de12.js"
     ]
   },
-  "_InputLabel-1eef560a.js": {
-    "file": "assets/InputLabel-1eef560a.js",
+  "_InputLabel-6b2cca21.js": {
+    "file": "assets/InputLabel-6b2cca21.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_PrimaryButton-d6ebd6cd.js": {
-    "file": "assets/PrimaryButton-d6ebd6cd.js",
+  "_PrimaryButton-a0d621f5.js": {
+    "file": "assets/PrimaryButton-a0d621f5.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_ResponsiveNavLink-db876f30.js": {
-    "file": "assets/ResponsiveNavLink-db876f30.js",
+  "_ResponsiveNavLink-ad244a24.js": {
+    "file": "assets/ResponsiveNavLink-ad244a24.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_TextInput-ec6541bf.js": {
-    "file": "assets/TextInput-ec6541bf.js",
+  "_TextInput-e10f2df8.js": {
+    "file": "assets/TextInput-e10f2df8.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_lodash-d7939c75.js": {
-    "file": "assets/lodash-d7939c75.js",
+  "_lodash-b2dc61f8.js": {
+    "file": "assets/lodash-b2dc61f8.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_react-select.esm-97a75ea7.js": {
-    "file": "assets/react-select.esm-97a75ea7.js",
+  "_react-select.esm-5dad18b1.js": {
+    "file": "assets/react-select.esm-5dad18b1.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_react-toastify.esm-d50c4006.js": {
-    "file": "assets/react-toastify.esm-d50c4006.js",
+  "_react-toastify.esm-eddef947.js": {
+    "file": "assets/react-toastify.esm-eddef947.js",
     "imports": [
       "resources/js/app.jsx"
     ]
   },
-  "_transition-b4081afe.js": {
-    "file": "assets/transition-b4081afe.js",
+  "_transition-fb6ede76.js": {
+    "file": "assets/transition-fb6ede76.js",
     "imports": [
       "resources/js/app.jsx"
     ]
@@ -73,18 +73,18 @@
       "assets/ReactToastify-d9e3f7bd.css",
       "assets/style-8ca47ab7.css"
     ],
-    "file": "assets/Account-e737f15c.js",
+    "file": "assets/Account-868db39a.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
-      "_react-toastify.esm-d50c4006.js",
-      "_lodash-d7939c75.js",
+      "_react-toastify.esm-eddef947.js",
+      "_lodash-b2dc61f8.js",
       "resources/js/Pages/Account/Modal/AddaccountModal.jsx",
       "resources/js/Pages/Account/Modal/EditaccountModal.jsx",
       "resources/js/Pages/Account/Modal/DeleteaccountModal.jsx",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Account/Account.jsx"
@@ -93,10 +93,10 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/AddaccountModal-5d9b7faa.js",
+    "file": "assets/AddaccountModal-08a3db45.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js"
+      "_react-toastify.esm-eddef947.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Account/Modal/AddaccountModal.jsx"
@@ -105,10 +105,10 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/DeleteaccountModal-774bbc14.js",
+    "file": "assets/DeleteaccountModal-288c4fc5.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js"
+      "_react-toastify.esm-eddef947.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Account/Modal/DeleteaccountModal.jsx"
@@ -117,87 +117,87 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/EditaccountModal-e9b2127f.js",
+    "file": "assets/EditaccountModal-b5784abc.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js"
+      "_react-toastify.esm-eddef947.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Account/Modal/EditaccountModal.jsx"
   },
   "resources/js/Pages/Auth/ConfirmPassword.jsx": {
-    "file": "assets/ConfirmPassword-9cd2ab40.js",
+    "file": "assets/ConfirmPassword-96ff5d3b.js",
     "imports": [
       "resources/js/app.jsx",
-      "_GuestLayout-50e13093.js",
-      "_TextInput-ec6541bf.js",
-      "_InputLabel-1eef560a.js",
-      "_PrimaryButton-d6ebd6cd.js",
-      "_ApplicationLogo-4135d031.js"
+      "_GuestLayout-fc7224df.js",
+      "_TextInput-e10f2df8.js",
+      "_InputLabel-6b2cca21.js",
+      "_PrimaryButton-a0d621f5.js",
+      "_ApplicationLogo-ddd2de12.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ConfirmPassword.jsx"
   },
   "resources/js/Pages/Auth/ForgotPassword.jsx": {
-    "file": "assets/ForgotPassword-0b3b497f.js",
+    "file": "assets/ForgotPassword-b24c0136.js",
     "imports": [
       "resources/js/app.jsx",
-      "_GuestLayout-50e13093.js",
-      "_TextInput-ec6541bf.js",
-      "_PrimaryButton-d6ebd6cd.js",
-      "_ApplicationLogo-4135d031.js"
+      "_GuestLayout-fc7224df.js",
+      "_TextInput-e10f2df8.js",
+      "_PrimaryButton-a0d621f5.js",
+      "_ApplicationLogo-ddd2de12.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ForgotPassword.jsx"
   },
   "resources/js/Pages/Auth/Login.jsx": {
-    "file": "assets/Login-ba54a110.js",
+    "file": "assets/Login-081b162b.js",
     "imports": [
       "resources/js/app.jsx",
-      "_TextInput-ec6541bf.js"
+      "_TextInput-e10f2df8.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Login.jsx"
   },
   "resources/js/Pages/Auth/Register.jsx": {
-    "file": "assets/Register-4feeb84f.js",
+    "file": "assets/Register-442264d0.js",
     "imports": [
       "resources/js/app.jsx",
-      "_GuestLayout-50e13093.js",
-      "_TextInput-ec6541bf.js",
-      "_InputLabel-1eef560a.js",
-      "_PrimaryButton-d6ebd6cd.js",
-      "_ApplicationLogo-4135d031.js"
+      "_GuestLayout-fc7224df.js",
+      "_TextInput-e10f2df8.js",
+      "_InputLabel-6b2cca21.js",
+      "_PrimaryButton-a0d621f5.js",
+      "_ApplicationLogo-ddd2de12.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/Register.jsx"
   },
   "resources/js/Pages/Auth/ResetPassword.jsx": {
-    "file": "assets/ResetPassword-263507d6.js",
+    "file": "assets/ResetPassword-3e31e9ef.js",
     "imports": [
       "resources/js/app.jsx",
-      "_GuestLayout-50e13093.js",
-      "_TextInput-ec6541bf.js",
-      "_InputLabel-1eef560a.js",
-      "_PrimaryButton-d6ebd6cd.js",
-      "_ApplicationLogo-4135d031.js"
+      "_GuestLayout-fc7224df.js",
+      "_TextInput-e10f2df8.js",
+      "_InputLabel-6b2cca21.js",
+      "_PrimaryButton-a0d621f5.js",
+      "_ApplicationLogo-ddd2de12.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/ResetPassword.jsx"
   },
   "resources/js/Pages/Auth/VerifyEmail.jsx": {
-    "file": "assets/VerifyEmail-f7768c5f.js",
+    "file": "assets/VerifyEmail-d0855737.js",
     "imports": [
       "resources/js/app.jsx",
-      "_GuestLayout-50e13093.js",
-      "_PrimaryButton-d6ebd6cd.js",
-      "_ApplicationLogo-4135d031.js"
+      "_GuestLayout-fc7224df.js",
+      "_PrimaryButton-a0d621f5.js",
+      "_ApplicationLogo-ddd2de12.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Auth/VerifyEmail.jsx"
   },
   "resources/js/Pages/Chart.jsx": {
-    "file": "assets/Chart-0945089a.js",
+    "file": "assets/Chart-c83ff792.js",
     "imports": [
       "resources/js/app.jsx"
     ],
@@ -208,65 +208,65 @@
     "css": [
       "assets/style-8ca47ab7.css"
     ],
-    "file": "assets/Dashboard-8873b61f.js",
+    "file": "assets/Dashboard-d73b8777.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Dashboard.jsx"
   },
   "resources/js/Pages/Profile/Edit.jsx": {
-    "file": "assets/Edit-bcc03446.js",
+    "file": "assets/Edit-d3e1b7df.js",
     "imports": [
       "resources/js/app.jsx",
-      "_ApplicationLogo-4135d031.js",
-      "_transition-b4081afe.js",
-      "_ResponsiveNavLink-db876f30.js",
+      "_ApplicationLogo-ddd2de12.js",
+      "_transition-fb6ede76.js",
+      "_ResponsiveNavLink-ad244a24.js",
       "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx",
       "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx",
       "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx",
-      "_TextInput-ec6541bf.js",
-      "_InputLabel-1eef560a.js",
-      "_PrimaryButton-d6ebd6cd.js"
+      "_TextInput-e10f2df8.js",
+      "_InputLabel-6b2cca21.js",
+      "_PrimaryButton-a0d621f5.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Edit.jsx"
   },
   "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx": {
-    "file": "assets/DeleteUserForm-14721a89.js",
+    "file": "assets/DeleteUserForm-1d7f7c1e.js",
     "imports": [
       "resources/js/app.jsx",
-      "_TextInput-ec6541bf.js",
-      "_InputLabel-1eef560a.js",
-      "_transition-b4081afe.js"
+      "_TextInput-e10f2df8.js",
+      "_InputLabel-6b2cca21.js",
+      "_transition-fb6ede76.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/DeleteUserForm.jsx"
   },
   "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx": {
-    "file": "assets/UpdatePasswordForm-95819361.js",
+    "file": "assets/UpdatePasswordForm-61c2f96b.js",
     "imports": [
       "resources/js/app.jsx",
-      "_TextInput-ec6541bf.js",
-      "_InputLabel-1eef560a.js",
-      "_PrimaryButton-d6ebd6cd.js",
-      "_transition-b4081afe.js"
+      "_TextInput-e10f2df8.js",
+      "_InputLabel-6b2cca21.js",
+      "_PrimaryButton-a0d621f5.js",
+      "_transition-fb6ede76.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdatePasswordForm.jsx"
   },
   "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx": {
-    "file": "assets/UpdateProfileInformationForm-da66d4f6.js",
+    "file": "assets/UpdateProfileInformationForm-7bc7adbe.js",
     "imports": [
       "resources/js/app.jsx",
-      "_TextInput-ec6541bf.js",
-      "_InputLabel-1eef560a.js",
-      "_PrimaryButton-d6ebd6cd.js",
-      "_transition-b4081afe.js"
+      "_TextInput-e10f2df8.js",
+      "_InputLabel-6b2cca21.js",
+      "_PrimaryButton-a0d621f5.js",
+      "_transition-fb6ede76.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.jsx"
@@ -276,18 +276,18 @@
       "assets/ReactToastify-d9e3f7bd.css",
       "assets/style-8ca47ab7.css"
     ],
-    "file": "assets/Rooms-5731a97b.js",
+    "file": "assets/Rooms-0cad48ae.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
-      "_react-toastify.esm-d50c4006.js",
+      "_react-toastify.esm-eddef947.js",
       "resources/js/Pages/Rooms/modal/AddroomModal.jsx",
       "resources/js/Pages/Rooms/modal/EditroomModal.jsx",
       "resources/js/Pages/Rooms/modal/DeleteroomModal.jsx",
-      "_lodash-d7939c75.js",
+      "_lodash-b2dc61f8.js",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Rooms/Rooms.jsx"
@@ -296,10 +296,10 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/AddroomModal-5ddb9606.js",
+    "file": "assets/AddroomModal-69210be3.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js"
+      "_react-toastify.esm-eddef947.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Rooms/modal/AddroomModal.jsx"
@@ -308,10 +308,10 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/DeleteroomModal-3dfb0d1b.js",
+    "file": "assets/DeleteroomModal-70f29f91.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js"
+      "_react-toastify.esm-eddef947.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Rooms/modal/DeleteroomModal.jsx"
@@ -320,10 +320,10 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/EditroomModal-392d125b.js",
+    "file": "assets/EditroomModal-d612996b.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js"
+      "_react-toastify.esm-eddef947.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Rooms/modal/EditroomModal.jsx"
@@ -332,46 +332,46 @@
     "css": [
       "assets/style-8ca47ab7.css"
     ],
-    "file": "assets/Salesreport-ed05d345.js",
+    "file": "assets/Salesreport-2616dfdc.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
-      "_react-toastify.esm-d50c4006.js",
+      "_react-toastify.esm-eddef947.js",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Salesreports/Salesreport.jsx"
   },
   "resources/js/Pages/Template/Content.jsx": {
-    "file": "assets/Content-073be944.js",
+    "file": "assets/Content-ff8e4662.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Template/Content.jsx"
   },
   "resources/js/Pages/Template/ContentWrapper.jsx": {
-    "file": "assets/ContentWrapper-78a92e07.js",
+    "file": "assets/ContentWrapper-0fa09a74.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Template/ContentWrapper.jsx"
   },
   "resources/js/Pages/Template/Navbar.jsx": {
-    "file": "assets/Navbar-c6869d22.js",
+    "file": "assets/Navbar-5bf573c0.js",
     "imports": [
       "resources/js/app.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Template/Navbar.jsx"
@@ -380,7 +380,7 @@
     "assets": [
       "assets/ssss-removebg-preview-1b50eb53.png"
     ],
-    "file": "assets/Sidebar-27301930.js",
+    "file": "assets/Sidebar-f8b6ec6a.js",
     "imports": [
       "resources/js/app.jsx"
     ],
@@ -391,11 +391,11 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/AddtenantModal-1e716386.js",
+    "file": "assets/AddtenantModal-cada44cd.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js",
-      "_react-select.esm-97a75ea7.js"
+      "_react-toastify.esm-eddef947.js",
+      "_react-select.esm-5dad18b1.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tenants/Modal/AddtenantModal.jsx"
@@ -404,10 +404,10 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/DeletetenantModal-1cf24e5c.js",
+    "file": "assets/DeletetenantModal-5928aa2c.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js"
+      "_react-toastify.esm-eddef947.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tenants/Modal/DeletetenantModal.jsx"
@@ -416,11 +416,11 @@
     "css": [
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/EdittenantModal-f5931fa0.js",
+    "file": "assets/EdittenantModal-3ae877f5.js",
     "imports": [
       "resources/js/app.jsx",
-      "_react-toastify.esm-d50c4006.js",
-      "_react-select.esm-97a75ea7.js"
+      "_react-toastify.esm-eddef947.js",
+      "_react-select.esm-5dad18b1.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tenants/Modal/EdittenantModal.jsx"
@@ -430,19 +430,19 @@
       "assets/style-8ca47ab7.css",
       "assets/ReactToastify-d9e3f7bd.css"
     ],
-    "file": "assets/Tenants-7f3c01df.js",
+    "file": "assets/Tenants-638cce70.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
-      "_react-toastify.esm-d50c4006.js",
-      "_lodash-d7939c75.js",
+      "_react-toastify.esm-eddef947.js",
+      "_lodash-b2dc61f8.js",
       "resources/js/Pages/Tenants/Modal/AddtenantModal.jsx",
       "resources/js/Pages/Tenants/Modal/EdittenantModal.jsx",
       "resources/js/Pages/Tenants/Modal/DeletetenantModal.jsx",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js",
-      "_react-select.esm-97a75ea7.js"
+      "_ResponsiveNavLink-ad244a24.js",
+      "_react-select.esm-5dad18b1.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tenants/Tenants.jsx"
@@ -451,14 +451,14 @@
     "css": [
       "assets/style-8ca47ab7.css"
     ],
-    "file": "assets/Tenantstatus-3086b789.js",
+    "file": "assets/Tenantstatus-89c785f1.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
-      "_react-toastify.esm-d50c4006.js",
+      "_react-toastify.esm-eddef947.js",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tenantstatus/Tenantstatus.jsx"
@@ -467,20 +467,20 @@
     "css": [
       "assets/style-8ca47ab7.css"
     ],
-    "file": "assets/Tenantstatus2-3086b789.js",
+    "file": "assets/Tenantstatus2-89c785f1.js",
     "imports": [
       "resources/js/app.jsx",
       "resources/js/Pages/Template/ContentWrapper.jsx",
-      "_react-toastify.esm-d50c4006.js",
+      "_react-toastify.esm-eddef947.js",
       "resources/js/Pages/Template/Sidebar.jsx",
       "resources/js/Pages/Template/Navbar.jsx",
-      "_ResponsiveNavLink-db876f30.js"
+      "_ResponsiveNavLink-ad244a24.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/js/Pages/Tenantstatus/Tenantstatus2.jsx"
   },
   "resources/js/Pages/Welcome.jsx": {
-    "file": "assets/Welcome-130db40a.js",
+    "file": "assets/Welcome-46d86c43.js",
     "imports": [
       "resources/js/app.jsx"
     ],
@@ -488,12 +488,12 @@
     "src": "resources/js/Pages/Welcome.jsx"
   },
   "resources/js/app.css": {
-    "file": "assets/app-eadea164.css",
+    "file": "assets/app-b97930e0.css",
     "src": "resources/js/app.css"
   },
   "resources/js/app.jsx": {
     "css": [
-      "assets/app-eadea164.css"
+      "assets/app-b97930e0.css"
     ],
     "dynamicImports": [
       "resources/js/Pages/Account/Account.jsx",
@@ -529,7 +529,7 @@
       "resources/js/Pages/Tenantstatus/Tenantstatus2.jsx",
       "resources/js/Pages/Welcome.jsx"
     ],
-    "file": "assets/app-138d94eb.js",
+    "file": "assets/app-cad11cf2.js",
     "isEntry": true,
     "src": "resources/js/app.jsx"
   },

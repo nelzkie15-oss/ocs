@@ -1,0 +1,1 @@
+import{j as r}from"./app-cad11cf2.js";import t from"./Sidebar-f8b6ec6a.js";import o from"./Navbar-5bf573c0.js";import m from"./ContentWrapper-0fa09a74.js";import"./ResponsiveNavLink-ad244a24.js";function a(){return r.jsxs(r.Fragment,{children:[r.jsx(t,{}),r.jsx(o,{}),r.jsx(m,{})]})}export{a as default};

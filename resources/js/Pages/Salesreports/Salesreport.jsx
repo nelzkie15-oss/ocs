@@ -51,15 +51,16 @@ function Salesreport({results }) {
         >
 
      <span className="mx-4 text-gray-500">Status</span>
-        <select
+     <select
                value={toStatus}
                onChange={(e) => setStatus(e.target.value)}
-              className="w-1 h-4 py-3 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="w-22 text-sm text-gray-900 border  focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-500 dark:focus:border-blue-500"
         >
             <option value="">&larr; Select Status &rarr;</option>
             <option value="Paid">Paid</option>
             <option value="UnPaid">UnPaid</option>
         </select>
+
 
 
    <div id="date-range-picker" date-rangepicker className="flex items-center">
