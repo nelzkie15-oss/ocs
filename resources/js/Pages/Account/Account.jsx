@@ -123,7 +123,7 @@ function Account({ accounts }) {
           </tbody>
         </table>
         <nav>
-            <ul className="pagination">
+            <ul className="pagination mb-3">
                 {accounts.links.map((link, index) => (
                 <li key={index} className={`page-item ${link.active ? 'active' : ''}`}>
                     <Link
