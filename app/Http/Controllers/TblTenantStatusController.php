@@ -17,6 +17,7 @@ class TblTenantStatusController extends Controller
 {
     public function index(Request $request): Response
     {
+        date_default_timezone_set("asia/manila");
         $currentMonth = Carbon::now()->month; //current month
 
         $paidRecords = DB::table('tbl_tenants')
@@ -46,6 +47,7 @@ class TblTenantStatusController extends Controller
 
     public function index2(Request $request): Response
     {
+        date_default_timezone_set("asia/manila");
         $currentMonth = Carbon::now()->month; //current month
 
         $unpaidpaidRecords = DB::table('tbl_tenants')

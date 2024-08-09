@@ -33,7 +33,7 @@ class ScheduleDate extends Command
         date_default_timezone_set("asia/manila");
         //$currentMonth = Carbon::now()->toDateString();
         $currentMonth = Carbon::now()->month;
-        $userMail = tbl_tenant::select('tenant_email')->where('start_date', '>=', $currentMonth)->get();
+        $userMail = tbl_tenant::select('tenant_email')->whereMonth('start_date', '>=', $currentMonth)->get();
         $emails = [];
         foreach ($userMail as $mail){
             $emails[] = $mail['tenant_email'];

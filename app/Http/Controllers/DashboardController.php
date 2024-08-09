@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Auth;
 class DashboardController extends Controller
 {
     public function Dashboard(){
-
+        date_default_timezone_set("asia/manila");
         $currentMonth = Carbon::now()->month; //current month
 
         $paidRecords = DB::table('tbl_tenants')
