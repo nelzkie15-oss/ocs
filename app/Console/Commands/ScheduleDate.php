@@ -35,7 +35,7 @@ class ScheduleDate extends Command
             $emails[] = $mail['tenant_email'];
         }
         Mail::send('emails.mail', [], function($message) use ($emails){
-           $message->to($emails)->subject('This is a test message for mailing cron');
+           $message->to($emails)->subject('I remind you to pay this Month');
         });
 
     }
