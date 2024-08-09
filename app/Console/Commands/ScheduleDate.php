@@ -2,11 +2,13 @@
 
 namespace App\Console\Commands;
 
-use Illuminate\Console\Command;
+use DB;
 use Mail;
 use App\Models\tbl_tenant;
+use Carbon\Carbon;
 use App\Mail\GmailNotification;
-use DB;
+use Illuminate\Console\Command;
+
 class ScheduleDate extends Command
 {
     /**
@@ -28,8 +30,10 @@ class ScheduleDate extends Command
      */
     public function handle()
     {
-
-        $userMail = tbl_tenant::select('tenant_email')->get();
+        date_default_timezone_set("asia/manila");
+        //$currentMonth = Carbon::now()->toDateString();
+        $currentMonth = Carbon::now()->month;
+        $userMail = tbl_tenant::select('tenant_email')->where('start_date', '>=', $currentMonth)->get();
         $emails = [];
         foreach ($userMail as $mail){
             $emails[] = $mail['tenant_email'];
