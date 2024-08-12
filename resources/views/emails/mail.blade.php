@@ -184,7 +184,7 @@
     <div class="main">
         <div class="content">
             <h4>CONTACT ME IF YOU HAVE A QUESTION</h4>
-            <p>Good day I remind you to pay this month for your rental thank you and godbless.</p>
+            <p>Good day I remind you to pay this month for your rental thank you and godbless.<br/><br/>Otherwise, if you did not make this request then please ignore this email.</p>
         </div>
     </div>
 </body>
