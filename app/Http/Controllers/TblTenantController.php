@@ -107,6 +107,7 @@ class TblTenantController extends Controller
             'end_date' => $request->end_date,
             'status' => $request->status,
             'amount' => $request->amount,
+            'payment_status' => $request->payment_status,
             'month_name'=>$month
          ];
         $tenant->update($data);
