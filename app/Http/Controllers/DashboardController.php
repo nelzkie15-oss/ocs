@@ -39,7 +39,7 @@ class DashboardController extends Controller
             'month_name',
             DB::raw('SUM(amount) as total_sales')
         )
-        ->where(['payment_status' => 'Paid', 'years' => $currentYear])
+        ->where(['payment_status' => 'Paid'])
         ->groupBy('month_name')
         ->get();
 
