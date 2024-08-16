@@ -20,7 +20,8 @@ class tbl_tenant extends Model
         'status',
         'amount',
         'payment_status',
-        'month_name'
+        'month_name',
+        'years'
     ];
 
     public function room()

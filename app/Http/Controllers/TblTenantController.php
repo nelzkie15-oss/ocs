@@ -99,6 +99,7 @@ class TblTenantController extends Controller
 
         date_default_timezone_set("asia/manila");
         $month = date('F');
+        $year = date('Y');
         $data = [
             'tenant_name' => $request->tenant_name,
             'tenant_cnumber'=> $request->tenant_cnumber,
@@ -108,7 +109,8 @@ class TblTenantController extends Controller
             'status' => $request->status,
             'amount' => $request->amount,
             'payment_status' => $request->payment_status,
-            'month_name'=>$month
+            'month_name'=>$month,
+            'years'=>$year,
          ];
         $tenant->update($data);
 
