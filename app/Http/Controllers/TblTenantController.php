@@ -84,19 +84,32 @@ class TblTenantController extends Controller
 
     public function update(Request $request, tbl_tenant $tenant)
     {
-        $validatedData = $request->validate([
-            'tenant_name' => 'required|string|max:255',
-            'tenant_cnumber' => 'required|string|max:255',
-            'tenant_email' => 'required|email|max:255',
-            // 'room_id' => 'nullable|exists:rooms,id',
-            'start_date' => 'required|date',
-            'end_date' => 'nullable|date',
-            'status' => 'required|string|in:active,inactive',
-            'amount' => 'required',
-            'payment_status' => 'required',
-        ]);
+        // $validatedData = $request->validate([
+        //     'tenant_name' => 'required|string|max:255',
+        //     'tenant_cnumber' => 'required|string|max:255',
+        //     'tenant_email' => 'required|email|max:255',
+        //     // 'room_id' => 'nullable|exists:rooms,id',
+        //     'start_date' => 'required|date',
+        //     'end_date' => 'nullable|date',
+        //     'status' => 'required|string|in:active,inactive',
+        //     'amount' => 'required',
+        //     'payment_status' => 'required',
+        // ]);
+        // $tenant->update($validatedData);
 
-        $tenant->update($validatedData);
+        date_default_timezone_set("asia/manila");
+        $month = date('F');
+        $data = [
+            'tenant_name' => $request->tenant_name,
+            'tenant_cnumber'=> $request->tenant_cnumber,
+            'tenant_email' =>  $request->tenant_email,
+            'start_date' => $request->start_date,
+            'end_date' => $request->end_date,
+            'status' => $request->status,
+            'amount' => $request->amount,
+            'month_name'=>$month
+         ];
+        $tenant->update($data);
 
         return to_route('tenants')->with(['success' => 'Tenant updated successfully.']);
 

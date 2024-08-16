@@ -29,11 +29,37 @@ class DashboardController extends Controller
 
         $rooms = tbl_room::all()->count();
         $tenants = tbl_tenant::all()->count();
+
+
+        // bar chart sales monthly/anual
+        date_default_timezone_set("asia/manila");
+        $currentYear = date('Y');
+        $salesByMonth = DB::table('tbl_tenants')
+        ->select(
+            'month_name',
+            DB::raw('SUM(amount) as total_sales')
+        )
+        ->where('payment_status', 'Paid')
+        ->groupBy('month_name')
+        ->get();
+
+        $data = [
+            'labels' => [],
+            'data' => []
+        ];
+
+        foreach ($salesByMonth as $sales) {
+            $data['labels'][] = $sales->month_name;
+            $data['data'][] = $sales->total_sales;
+        }
+
+        //end bar chart sales monthly/anual
         return Inertia::render('Dashboard', [
             'rooms' => $rooms,
             'tenants' => $tenants,
             'paidRecords' => $paidRecords,
-            'unpaidRecords' => $unpaidRecords
+            'unpaidRecords' => $unpaidRecords,
+            'salesData' => $data,
         ]);
     }
 
